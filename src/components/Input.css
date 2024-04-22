@@ -1,0 +1,33 @@
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.required-asterisk {
+    color: red;
+    margin-left: 4px;
+}
+
+.input-container input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-field {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-field.required-empty {
+    border-color: red;
+  }
+  

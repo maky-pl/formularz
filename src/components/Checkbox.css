@@ -1,0 +1,31 @@
+   .checkbox-container {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: 10px;
+       margin: 20px auto;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 8px;
+       width: 100%;
+       max-width: 600px;
+   }
+
+   .checkbox-label {
+       display: flex;
+       align-items: center;
+       cursor: pointer;
+       user-select: none;
+       padding: 5px 0;
+       white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+   }
+
+   input[type="checkbox"] {
+       margin-right: 8px;
+       margin-left: 8px;
+   }
+
+   .checkbox-label:hover {
+       background-color: #f0f0f0;
+   }
